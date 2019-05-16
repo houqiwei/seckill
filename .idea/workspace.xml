@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec0e46c0-8584-49fa-a994-7b3e027d8228" name="Default Changelist" comment="构建">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seckill.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/houqiwei/wenda/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/houqiwei/wenda/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/houqiwei/wenda/dao/QuestionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/houqiwei/wenda/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/houqiwei/wenda/model/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/houqiwei/wenda/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/houqiwei/wenda/model/ViewObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/houqiwei/wenda/service/QuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/houqiwei/wenda/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/java/com/houqiwei/wenda/util/WendaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/com/houqiwei/wenda/dao/QuestionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/img/spinner2.8f60205d.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/img/sprites-1.9.2.4c54885a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/img/sprites-1.9.2@2x.6e638473.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/img/sprites.auto.915a539c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/img/sprites@2x.auto.dd5c79c1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/070a9fb26_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/0b856ef58f76b7c83a0e130f6ef71281_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/0ba3da3f03ced7a438118b0be77df56c_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/0c6a39621ab1d456b1e6e492d0becc0c_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/0cf21546298ad1ed3cb64be61d822c27_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/0cffb89d0b0bd4e726ae54b212a31c3b_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/102799979_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/10a4cd7fb082375332be33eadfd14c58_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/11ba31c8bb5473a44b7690eff24b9123_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/11be4a90ed938abfbab4899df56ee754_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/12a8e1ce5ad8060fddb93ae2df98028b_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/19456ebfe8b207320735f282769ac635_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/1ac7840eeb19ada0bbf85f51702d5784_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/1ce495b02_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/23cace5cf60f39dbc095bd7a12b2cfad_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/24ce38dd5fc2a0c4e0525e577eef7d64_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/272627e471a533f58f319a9e600e0a94_is.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/2e21e58a990f5c756e813a64a4bba14c_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/31826765d442d8222a05cd67d0643a25_270x225.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/33fb6f51a3f4e16b6e89172040451dca_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/3b673d6335ef6788d1659ee2b6381e97_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/41d652d947a489e056b0179ba137294b_m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/450c9d9f5240f05f73d21fe3ae76f1a6_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/4528283ed249589634546327431667bf_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/4d104b6c6a08f7e1a48f4f32c88b1ce2_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/51559bbebaa7fd395c271b7b1c8b9f26_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/558b3e3d8be209247159ba4f83ab1c02_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/6088e39f2_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/66a689b2c60557eae79d839aaedf48b0_200x112.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/6c76223a5aef2f1d29c680a2524de791_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/6ceea810748d179f57cac0baa5cf9592_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/6cfbfc0c5e3c5ecd8784f7e733a75b4f_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/6fd46860a4b6cbc1e52d676f217ea9fd_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/7412830858217e93f6c5d06f6328cbd5_200x112.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/7986ef6045f2cef8352be5affce5f7d1_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/837b60aa36029a2309974e74de3b62e9_xl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/845303838eca4a5b5f03cc3ca994ec28_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/845c492813e72b85c6e11cccf8ed0ff8_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/935f87219_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/975baaf73fd76f48ce6f05e19b176878_xl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/9cfe980ca44e38bd9b0e5c3dee5b0f3e_270x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/9ec0168d1b210d9b8f089e16f521b82b_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/a3f80f6a6_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/a4df63114bd9374a73775e30db1cdd36_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/a57fdaff90865eaaef2e87051624862b_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/aa49b7ceff22ea68ca5f747115cd17af_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/aadd7b895_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/aadd7b895_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/actioncard-suggested-avatar.c5af416d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/actioncard-validation@2x.65147043.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/b144d91ec_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/b3aadf89405941b05a5ce00fb06f8281_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/b476f1461388bf4907634009904739e6_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/b4a6228e6810d38e19e491c173af4d5c_m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/b85ddd8aa_xl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/badaaf312e59c125928bd1ea2d4b5a51_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/bb73b7fb48b0cb63aa573415dfe4d0c5_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/bc93fd5289c13c06fd569bc4f6df821e_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/be39d110759e68f389b7d2934d7353bc_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/c07f969d8dcc6251ef114fe6b1a9a563_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/c28e9af7f_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/c54bb4367803ba590035d2d89d1a84dd_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/c79247853_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/c898060535edfdbe4147d2135c29787f_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/c94c92af8_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/cafae465b8ea283498c69ab9757f86ba_xl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/captcha.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/cbc5d3c6f333215a1c480cb3b4735b45_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/d207854fffc9e0289fbd6bbbb3986988_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/d6842d77b4bda238e0db09217e3d2f8d_270x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/d822a919d93a761634a67c2022a3f614_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/da8e974dc_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/da8e974dc_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/da8e974dc_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/df4aa616fdcfbd861c010ff71aaef95c_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/e174d6d0c_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/e6f4caaaa_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/e8757728eb70adeb8ebaa0864874c29d_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/ec6bb3fa05625b848ac4d475ecce35c9_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/f1148eb1c7170cabb0a78dad73b590f6_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/f99201e42237de4fb7f8d5fbf9a2d270_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/fa70eff301ba417d4a9d3f55d603a29e_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/facfb45ac94f174655695853d4470bac_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/fb05f15bf8bffd1590df442ff6ba7812_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/fb6c4dd60a9f19f5fcd8265395e11f9e_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/fff25000064308791f739149af611439_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/hour.3d371c99.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/nacl.656ec1c4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/nk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/images/res/weekly.65279d61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/base.fb262f0e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/common.fed5411f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/ga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/instant.e7a17de6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/page-index.d7b54ac7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/page-main.5d4c554d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/richtexteditor.aa0a4005.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/vendor.ff76fbae.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/scripts/za-0.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/letter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/static/styles/result.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenda/src/main/resources/toolbox.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="387897554">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="jsp" value="1" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSP" value="1" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="6" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="40" />
+    <option name="y" value="52" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557986633200" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec0e46c0-8584-49fa-a994-7b3e027d8228" name="Default Changelist" comment="" />
+      <created>1557985267271</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557985267271</updated>
+      <workItem from="1557985269133" duration="1362000" />
+    </task>
+    <task id="LOCAL-00001" summary="构建">
+      <created>1557985904028</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557985904029</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1362000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Mybatis datasource" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="构建" />
+    <option name="LAST_COMMIT_MESSAGE" value="构建" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>seckill:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>seckill</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
