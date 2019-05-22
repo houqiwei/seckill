@@ -77,7 +77,7 @@ public class SeckillController {
         SeckillExecution execution = null;
         SeckillResult<SeckillExecution> result;
         try {
-            execution = seckillService.executeSeckill(seckillId, phone, md5);
+            execution = seckillService.executeSeckillProcedure(seckillId, phone, md5);
             return new SeckillResult<>(true, execution);
         } catch (RepeatKillException e) {
             SeckillExecution execution1 = new SeckillExecution(seckillId, SeckillStateEnum.REPEAT_KILL);
